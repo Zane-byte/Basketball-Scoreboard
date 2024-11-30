@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: #153131; 
+    
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    font-size: xx-large;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.score {
+    border: 2px;
+    background: #0a0001;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    border-radius: 5px;
+    width: 170px;
+    margin-top: -80px;
+    margin-bottom: -70px;
+    text-align: center;
+}
+
+button {
+    background: transparent;
+    color: white;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-bottom: 3px;    
+}
+
+#reset {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: end;
+    font-size: 19px;
+}
